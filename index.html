@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie #1</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+/* 
+    Zadanie (wersja mobilna): 
+            + Dostosowanie wielkości tekstu, żeby był dobrze widoczny 
+            + Image container ma być nad tekstem, nie obok tekstu (.container -> flex-direction: ?) i powinien zajmować 100% container'a,
+            + Cały container powinien zajmować 80vw ekranu,
+            - Przycisk powinien zajmować 80% container'a. (didnt work for me somehow, thats why created in a different way)
+
+    Materiały pomocnicze: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+*/
+<body>
+    <div class="container">
+        <div class="image__container"></div>
+        <div class="container__content">
+            <h2 class="content__title">Content Title</h2>
+            <div class="content__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum velit nulla, tempus sed elementum interdum,
+                rutrum eu lacus. Nam vel volutpat enim. Vestibulum at ultrices urna, id accumsan libero. Nam massa ipsum,
+                dictum eu vulputate at, mattis eu tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Integer lectus lorem, elementum at magna ac, convallis rhoncus nulla. Morbi volutpat sapien at nisi elementum fermentum.
+                Aenean elementum aliquet dui, vitae porta quam fringilla in. In hac habitasse platea dictumst. Donec sed nunc varius, 
+                laoreet augue non, feugiat purus.
+            </div>
+            <button class="content__read-more">Read More</button>
+        </div>
+    </div>
+</body>
+</html>
